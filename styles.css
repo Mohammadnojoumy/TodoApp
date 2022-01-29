@@ -1,0 +1,44 @@
+body {
+    background-image: linear-gradient( 45deg, #c42ab4, #14d2eb);
+}
+
+.header-title {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.header-title-2 {
+    font-size: 20px;
+}
+
+ul>li {
+    color: beige;
+    background-color: #14d2eb;
+    border: 1px solid black;
+    min-height: 40px;
+    transition: all 0.7s ease;
+    border: 1px solid #176772;
+    border-radius: 0.25rem!important;
+}
+
+ul>li:hover {
+    background-color: #176772;
+}
+
+.right-direction {
+    float: right;
+}
+
+.delete {
+    display: none;
+}
+
+.task-done {
+    background-image: linear-gradient( 45deg, #53345041, #1a4046c0);
+    text-decoration-line: line-through;
+}
+
+.slow-display {
+    color: #c42ab4!important;
+    transition: all 2.7s ease;
+}
